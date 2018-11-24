@@ -1,0 +1,9 @@
+Package: com.ps.blockemall
+Name: BlockEmAll
+Depends: mobilesubstrate, firmware (>= 9.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: No 50,000 entries limit for Safari content blockers.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
