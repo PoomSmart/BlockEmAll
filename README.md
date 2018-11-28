@@ -36,4 +36,4 @@ Changes to increasing memory limit **require a reboot**.
 # Per-app limitation bypassing
 Usually, content blockers (Adguard Pro included) will both limit the total rules to 50,000 and warn users about that. One must find and hook method(s) that limit the number, and the rest would work as intended.
 
-Ensuring all three sections, you are set.
+Ensuring all three sections and **reenabling the content blockers that you are using**, you are set.
