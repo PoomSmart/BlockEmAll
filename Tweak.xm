@@ -1,6 +1,6 @@
 %hook WKContentRuleListStore
 
-- (void)_compileContentRuleListForIdentifier:(NSString *)identifier encodedContentRuleList:(NS_RELEASES_ARGUMENT NSString *) encodedContentRuleList completionHandler:(void (^)(void **, NSError *))completionHandler {
+- (void)_compileContentRuleListForIdentifier:(NSString *)identifier encodedContentRuleList:(NS_RELEASES_ARGUMENT NSString *)encodedContentRuleList completionHandler:(void (^)(void **, NSError *))completionHandler {
     NSError *error = nil;
     NSArray *rules = [NSJSONSerialization JSONObjectWithData:[encodedContentRuleList dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:&error];
     if (error) {
