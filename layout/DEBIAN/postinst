@@ -1,7 +1,6 @@
 #!/bin/sh
 
-model=$(uname -i)
-model=${model/AP/}
+model=$(sysctl -n hw.targettype)
 
 jetsam_plist="/System/Library/LaunchDaemons/com.apple.jetsamproperties.${model}.plist"
 
