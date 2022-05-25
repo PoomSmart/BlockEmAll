@@ -1,7 +1,7 @@
 Package: com.ps.blockemall
 Name: BlockEmAll
-Depends: firmware (>= 9.0), mobilesubstrate, com.bingner.plutil, system-cmds
-Version: 0.0.1
+Depends: firmware (>= 9.0), firmware (<< 15.0), mobilesubstrate, com.bingner.plutil, system-cmds
+Version: 1.0.0
 Architecture: iphoneos-arm
 Description: No 50,000 entries limit for Safari content blockers.
 Maintainer: PoomSmart

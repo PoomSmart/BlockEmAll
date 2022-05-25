@@ -1,4 +1,4 @@
-PACKAGE_VERSION = 0.0.2.2
+PACKAGE_VERSION = 1.0.0
 
 TARGET = iphone:clang:latest:9.0
 ARCHS = arm64 arm64e
@@ -6,7 +6,8 @@ ARCHS = arm64 arm64e
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = BlockEmAll
-BlockEmAll_FILES = Tweak.xm
+$(TWEAK_NAME)_FILES = Tweak.x
+$(TWEAK_NAME)_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
